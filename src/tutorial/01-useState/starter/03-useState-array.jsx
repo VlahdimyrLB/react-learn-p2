@@ -7,7 +7,7 @@ const UseStateArray = () => {
   const removeSingle = (id) => {
     console.log(id);
     //filters the array
-    //returns all id not equal to sleected id
+    //returns all id not equal to selected id
     //if persion.id not equal to id return a new array excluding the selected id
     // const newPeople = people.filter((person) => person.id !== id);
 
@@ -24,6 +24,8 @@ const UseStateArray = () => {
         return (
           <div key={id}>
             <h2>{name}</h2>
+            {/* Add an arrow function and id, 
+            This ensures that removeSingle is only called when the button is clicked. */}
             <button onClick={() => removeSingle(id)} type="button">
               Remove Item
             </button>
