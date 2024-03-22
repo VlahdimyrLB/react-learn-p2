@@ -1,4 +1,4 @@
-import Starter from "./tutorial/02-useEffect/starter/03-multiple-effects";
+import Starter from "./tutorial/02-useEffect/starter/05-cleanup-function";
 
 function App() {
   return (
