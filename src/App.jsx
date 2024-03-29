@@ -1,9 +1,8 @@
-import Starter from "./tutorial/02-useEffect/starter/05-cleanup-function";
-
+import FetchData from "./tutorial/09-context-api/starter/Navbar";
 function App() {
   return (
-    <div className="container">
-      <Starter />
+    <div>
+      <FetchData />
     </div>
   );
 }
